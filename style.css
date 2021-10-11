@@ -62,12 +62,12 @@ header.section {
 }
 
 .cta-form {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 32px;
-  max-width: 1000px;
-  margin: 64px auto 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 64px;
 }
+
 
 .cta-form input {
   padding: 16px;
@@ -75,6 +75,8 @@ header.section {
   border: 1px solid #b0b7c1;
   border-radius: 3px;
   color: #b0b7c1;
+  padding: 20px 50px;
+  margin-right: 15px;
 }
 
 .cta-form button {
@@ -87,11 +89,16 @@ header.section {
   color: #fff;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  padding: 18px 50px;
 }
 
 .cta-form button:hover {
   background-color: #4b5a69;
 }
+
+/* VOU POR OS COMENTARIOS AQUI POIS NAO CONSEGUI COMENTAR NO HTML.
+UTILIZEI A TAG FORMS POR CONTA DA SEMANTICA NO HTML E TIVE QUE FAZER ALGUMAS ALTERAÇÕES NO CSS,
+UTILIZEI FLEX BOX PARA ALINHAS OS ITENS DO FORMULARIO E ALTEREI ALGUMAS MARGINS E PADDINGS.*/
 
 .customer-logo-list {
   display: flex;
@@ -246,3 +253,7 @@ footer.section .container {
 .copyright {
   font-size: 18px;
 }
+
+
+
+/* O restante do codigo está ok, o site ficou bem igual praticamente ao exemplo da sala de aula e não vejo outras alterações que eu possa estar fazendo*/
